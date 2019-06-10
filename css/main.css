@@ -158,6 +158,14 @@ z-index: 1;
 
  }
 
+.about_item1:hover .about_img img{
+	opacity: .7;
+}
+
+
+.about_img img{
+	transition: opacity .1s linear;
+}
 
 
 .portfolio{
@@ -176,14 +184,6 @@ z-index: 1;
  }
 
 
-.about_item1:hover .about_img img{
-	opacity: .7;
-}
-
-
-.about_img img{
-	transition: opacity .1s linear;
-}
 
 #footersite{
 	padding-bottom: 20px;
